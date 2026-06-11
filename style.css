@@ -1,0 +1,75 @@
+ 
+        body {
+            background-color: #FFFDE7;
+            color: #3E2723;
+            font-family: Georgia, Garamond, serif;
+            font-size: 12pt;
+            max-width: 860px;
+            margin: 2em auto;
+            padding: 0 2em;
+        }
+        header {
+            text-align: center;
+            border-bottom: 3px solid #A4A400;
+            padding-bottom: 1em;
+            margin-bottom: 1.5em;
+        }
+        header h1 {
+            font-size: 36pt;
+            color: #A4A400;
+            margin: 0;
+            letter-spacing: 0.1em;
+        }
+        header p {
+            font-style: italic;
+            color: #795548;
+            margin: 0.3em 0 0;
+        }
+        nav {
+            background-color: #A4A400;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+        }
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            margin-right: 1.5em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 1.5em 0;
+        }
+        section h2 {
+            color: #A4A400;
+            font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+            font-size: 16pt;
+            border-bottom: 1px solid #DDD;
+        }
+        .pie-card {
+            display: inline-block;
+            vertical-align: top;
+            width: 45%;
+            margin: 0.5em 2%;
+            background: #FFF8E1;
+            border: 1px solid #DDD;
+            border-radius: 4px;
+            padding: 1em;
+        }
+        .pie-card h3 {
+            color: #A4A400;
+            margin: 0 0 0.4em;
+            font-family: Arial, sans-serif;
+        }
+        footer {
+            margin-top: 2em;
+            font-size: 9pt;
+            color: #999;
+            border-top: 1px solid #CCC;
+            padding-top: 0.5em;
+            text-align: center;
+        }
+    

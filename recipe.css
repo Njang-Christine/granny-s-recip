@@ -1,0 +1,74 @@
+/*
+ * recipe.css
+ * CSSE 290 - Web Programming, Homework 1
+ * Style sheet for pie.html (Grandma's Lemon Meringue Pie recipe page)
+ * Extra features implemented: #4 (wide headings), #5 (tight heading background)
+ */
+
+/* ── Page body ── */
+body {
+    background-color: #FFFFFF;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    margin: 2em 4em;
+}
+
+/* ── Links ── */
+a {
+    color: #A4A400;
+}
+
+/* ── All headings ── */
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.25em; /* extra feature #4 */
+    display: inline-block; /* extra feature #5: tight background */
+}
+
+/* ── Main (h1) heading ── */
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    display: block; /* center requires block; background tightened via padding */
+    padding: 0 0.2em;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* ── Section headings (h2) ── */
+h2 {
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: left;
+    padding: 0 0.2em;
+}
+
+/* ── Horizontal rule ── */
+hr {
+    border: none;
+    border-top: 1px solid #A4A400;
+}
+
+/* ── Blockquotes (user comments) ── */
+blockquote {
+    background-color: #FFFFA8;
+    font-style: italic;
+    margin: 0.5em 2em;
+    padding: 0.5em 1em;
+}
+
+/* ── Pre-formatted copyright block ── */
+pre {
+    font-family: monospace;
+}
+
+/* ── Strong (bold) inside directions steps ── */
+ol strong {
+    font-weight: bold;
+    font-style: normal;
+}
