@@ -1,2 +1,2 @@
-# granny-s-recip
+# granny-s-recipe
 recipe book
